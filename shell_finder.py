@@ -7,7 +7,7 @@ from requests.packages import urllib3
 from concurrent.futures import ThreadPoolExecutor, as_completed
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 #for personal use only
-
+#don't forget to give credit, if copilot try to steal XD or if you copy paste.
 endpoints = ['/aspnet_client/', '/owa/auth/','/OAB/', '/owa/auth/15.1.2044/scripts/premium/', '/owa/auth/Current/themes/resources/',  '/ecp/auth/', '/ews/']
 vulnerableText = 'OAB (Default Web Site)'
 foundShell = open(datetime.now().strftime("%d-%m-%Y")+'-shellFound.txt', 'w')
